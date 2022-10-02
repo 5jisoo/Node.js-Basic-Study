@@ -197,9 +197,9 @@ axios.get('https: ~~')
         console.log(result.data); // {}
 
     }catch (error){
-
+        console.error(error);
     }
-})
+})();
 
 
 
